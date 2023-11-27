@@ -128,7 +128,7 @@ width: 100vw;
     background-color: #fdfdfd;
 }
 .projects__container {
-    border: 2px solid red;
+/*     border: 2px solid red; */
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 1rem;
