@@ -126,12 +126,12 @@ width: 100vw;
 
 .projects {
     background-color: #fdfdfd;
-
 }
 .projects__container {
+    border: 2px solid red;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem;
 }
 .project1,
 .project2 {
@@ -151,8 +151,7 @@ width: 100vw;
 }
 .project1__left,
 .project2__right {
-    min-width: 15rem;
-
+    min-width: 17em;
 }
 
 button {
@@ -177,11 +176,9 @@ button:hover {
 
 .transitioncolor3 {
     height: 10rem;
-background: rgb(253,253,253);
-background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 44%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 100%); 
-width: 100vw; 
-
-
+    background: rgb(253,253,253);
+    background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 44%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 100%); 
+    width: 100vw;
 }
 
 /* make the contact section */
