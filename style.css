@@ -70,7 +70,7 @@ body {
     height: 10rem;
     background: rgb(237,237,237);
     background: linear-gradient(175deg, rgba(237,237,237,1) 0%, rgba(237,237,237,1) 44%, rgba(250,250,250,1) 44%, rgba(250,250,250,1) 100%); 
-    
+    width: 100vw; 
 }
 .techstack {
     background-color: #fafafa;
@@ -120,6 +120,7 @@ body {
     height: 10rem;
 background: rgb(250,250,250);
 background: linear-gradient(175deg, rgba(250,250,250,1) 0%, rgba(250,250,250,1) 44%, rgba(253,253,253,1) 44%, rgba(253,253,253,1) 100%); 
+width: 100vw; 
 
 }
 
@@ -178,7 +179,7 @@ button:hover {
     height: 10rem;
 background: rgb(253,253,253);
 background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 44%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 100%); 
-
+width: 100vw; 
 
 
 }
@@ -209,7 +210,8 @@ background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 
 }
 /* make all input fields equelly big */
 .contact__form input {
-    width: 25rem;
+    max-width: 25rem;
+    min-width: 90%;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: none;
@@ -217,14 +219,16 @@ background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 
 
 }
 .contact__form textarea {
-    width: 25rem;
+    max-width: 25rem;
+    min-width: 90%;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: none;
     background-color: #fcfcfc;
 }
 .contact__form button {
-    width: 25rem;
+    max-width: 25rem;
+    min-width: 90%;
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: none;
@@ -236,11 +240,12 @@ background: linear-gradient(175deg, rgba(253,253,253,1) 0%, rgba(253,253,253,1) 
     outline: 2px solid #ffd966;
 }
 .contact__container__left {
-    flex: 1 0 20%;
-
+    flex: 1 0 50%;
 }
 .contact__container__right {
-    flex: 1 0 20%;
+    flex-basis: 43%;
+    margin: 0 auto;
+
 }
 .contact__container__right h3 {
     font-weight: 300;
