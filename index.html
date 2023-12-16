@@ -134,11 +134,12 @@
             <h2 class="contact__title">Let's work together</h2>
             <div class="contact__container">
                 <div class="contact__container__left">
-                    <form class="contact__form" action="">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <textarea name="" id="" cols="10" rows="10" placeholder="Message"></textarea>
-                        <button>Send</button>
+                    <form action="https://formspree.io/f/xbjnrlbq" method="POST" class="contact__form">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="_replyto" placeholder="Email">
+                        <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
                     </form>
                 </div>
                 <div class="contact__container__right">
