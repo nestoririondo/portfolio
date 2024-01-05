@@ -181,7 +181,7 @@ button:hover {
     padding: 4rem 0 4rem 0;
 }
 .contact__container {
-    max-width: 900px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0 1rem 0 1rem;
     display: flex;
@@ -199,7 +199,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
 }
-/* make all input fields equelly big */
 .contact__form input {
     max-width: 25rem;
     min-width: 90%;
@@ -207,7 +206,6 @@ button:hover {
     margin-bottom: 1rem;
     border: none;
     background-color: #fcfcfc;
-
 }
 .contact__form textarea {
     max-width: 25rem;
@@ -225,25 +223,28 @@ button:hover {
     border: none;
     
 }
-/* change input focus color */
 .contact__form input:focus,
 .contact__form textarea:focus {
     outline: 2px solid #ffd966;
 }
 .contact__container__left {
-    flex: 1 0 50%;
+    flex: 1 0 60%;
 }
 .contact__container__right {
-    flex-basis: 43%;
-    margin: 0 auto;
-
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact__container__right .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 .contact__container__right h3 {
     font-weight: 300;
     padding-bottom: 1rem;
 }
 .contact__container__right a {
-    padding-right: 1rem;
     color: #6e6e6e;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
